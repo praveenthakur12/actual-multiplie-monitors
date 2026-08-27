@@ -1,0 +1,13 @@
+# See https://github.com/github/linguist
+# Do not edit manually
+
+*.jpeg binary
+
+src/**/*.rs linguist-detectable   
+vendor/* linguist-vendored
+
+*.rs linguist-detectable
+public/index.html linguist-vendored
+go.sum linguist-generated
+*.min.css linguist-generated
+public/**/*.html linguist-vendored
